@@ -46,5 +46,6 @@ void main() {
   ///2. find the largest of 3 nos
   ///3. find the smallest of 3 nos
   ///4. find the average of 3 nos
+  ///4.a> find the average of n nos
   ///5. check if the given year is leap year or not
 }

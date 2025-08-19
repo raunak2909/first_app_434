@@ -13,9 +13,9 @@ void main(){
     int no1 = int.parse(stdin.readLineSync() ?? "0");
 
     stdout.write("Enter no2: ");
-    int no2 = int.parse(stdin.readLineSync() ?? "0");
+    int no2 = int.parse(stdin.readLineSync() ?? "0"); ///"56"
 
-    print(add(no1, no2));
+    stdout.write(add(no1, no2));
     print(sub(no1, no2));
     print(multi(no1, no2));
     print(div(no1, no2));
@@ -33,6 +33,29 @@ void main(){
   ///3. Check if the no is Palindrome no or not.
   ///4. Print the factors of the given no.
   ///5. Print the table of the given no.
+
+  ///1. Find all the ODD no before any given no
+  ///2. Find all the ODD no between any two given no
+  ///3. Find first n ODD no
+
+  ///1. Find all the EVEN no before any given no
+  ///2. Find all the EVEN no between any two given no
+  ///3. Find first n EVEN no
+
+  ///1. Find all the ARMSTRONG no before any given no
+  ///2. Find all the ARMSTRONG no between any two given no
+  ///3. Find first n ARMSTRONG no
+
+  ///1. Find all the PALINDROME no before any given no
+  ///2. Find all the PALINDROME no between any two given no
+  ///3. Find first n PALINDROME no
+
+  ///1. Find all the Prime no before any given no
+  ///2. Find all the Prime no between any two given no
+  ///3. Find first n Prime no
+
+  ///4. Print first n no of Fibonacci series. /// 0, 1, 1, 2, 3, 5, 8, 13, 21.....
+  ///5. Print all the no of Fibonacci series before a given no.
 
 }
 
