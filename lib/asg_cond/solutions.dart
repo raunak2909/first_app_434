@@ -78,7 +78,7 @@ import 'dart:math';
 }*/
 
 ///5 armstrong no
-void main(){
+/*void main(){
 
   print("Enter any no to check if it is an ARMSTRONG no or not: ");
 
@@ -113,6 +113,39 @@ void main(){
 
 
 
+}*/
+
+///table
+/*void main(){
+
+  print("Enter any no to print its table: ");
+
+  int no = int.parse(stdin.readLineSync() ?? "0");
+
+  //1 to 10
+  for(int i = 1; i<=20; i++){
+    ///10 x 1 = 10
+    print("$no x $i = ${no*i}");
+  }
+
+
+
+
+}*/
+
+///1. Find all the ODD no before any given no
+void main(){
+  print("Enter no to find all the ODD no before it: ");
+  int no = getValue();
+  List<int> mOdd = [];
+
+  for(int i = 1; i<no; i++){
+    if(i%2!=0){
+      mOdd.add(i);
+    }
+  }
+
+  print(mOdd);
 }
 
-int getValue() => int.parse(stdin.readLineSync() ?? "0");
+int getValue() => int.parse(stdin.readLineSync() ?? "0"); ///""
